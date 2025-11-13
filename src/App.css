@@ -1,0 +1,92 @@
+.galeria-container {
+  padding: 2rem;
+  background-color: #f4f7fa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.galeria-titulo {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+.gif-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem;
+  width: 100%;
+  max-width: 220px;
+  transition: transform 0.2s;
+}
+
+.gif-card:hover {
+  transform: translateY(-4px);
+}
+
+.gif-imagen {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.gif-nombre {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+
+.botones-acciones {
+  display: flex;
+  gap: 1px;
+  margin-top: 1px;
+  justify-content: center;
+}
+
+.boton-descargar,
+.boton-copiar {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 10px;
+  transition: background-color 0.3s;
+}
+
+.boton-descargar:hover,
+.boton-copiar:hover {
+  background-color: #0056b3;
+}
+
+.boton-copiar {
+  background-color: #2f6100;
+  color: white;
+  border: none;
+  padding: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 10px;
+  transition: background-color 0.3s;
+}
+
+.boton-copiar:hover {
+  background-color: #012400;
+}
+
+
